@@ -1,0 +1,250 @@
+header{
+    background-image: url(new\ image.webp);
+    background-size: cover;
+    height: 150px;
+    margin-top: 5px;
+}
+.pic{
+  background: url(1hijab.webp);
+  height: 130px;
+background-size: cover;
+}
+.pic2{
+	background-image: url(big.webp);
+	height:390px ;
+	background-size: cover;
+}
+
+.pic1{
+ background-image: url(2hijab.webp); 
+	height:340px;
+	background-size: cover;
+	transition: 0.5s;
+ filter: grayscale(0%);
+  transition: 0.5s ease;
+  cursor: pointer; 
+}
+.abaya1{
+	background-image: url(barqe\ tajalli.webp);
+	background-size: cover;
+	height: 300px;
+}
+h1 img{
+	margin-top: 0%;
+	margin-bottom: 0px;
+	height: 100px;
+	width: 100px;
+}
+h1{
+	background-color: rgb(246, 246, 250);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 18px;
+	padding: 0px;
+}
+
+.navbar a{
+	margin-top: 1%;
+    text-decoration: none;
+  margin: 30px;  
+  color: rgba(10, 10, 10, 0.953);
+}
+.navbar a :hover{
+	background-color: white;
+	transform: scale(1.1);
+	filter: grayscale(0%);
+}
+
+nav{
+    padding:11px;
+   background-color:rgb(249, 250, 252);
+ font-size: 15px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ filter: grayscale(0%);
+ transition: 0.5s ease;
+ cursor: pointer;
+ }
+.homepage1{
+	background-color:rgba(138, 193, 230, 0.124);
+}
+.homepage1 img{
+	height: 100px;
+	width: 100px;
+	margin-top: 8px;
+	margin: 10px;
+	border-radius: 2000px;
+	filter: grayscale(0%);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.homepage1 img:hover{
+	transform: scale(1.1);
+filter: grayscale(0%);
+}
+.homepage1 button{
+	background-color: rgba(63, 79, 96, 0.739);
+	color: rgba(250, 247, 247, 0.981);
+	border-radius: 10px;
+	border: none;
+}
+ .homepage{
+	background-color: rgba(58, 49, 68, 0.097);
+ }
+ .homepage img{
+	height: 180px;
+	width: 140px;
+	margin-top: 8px;
+	margin: 10px;
+	border-radius: 200px;
+	filter: grayscale(0%);
+  transition: 0.5s ease;
+  cursor: pointer;
+ }
+.homepage img:hover{
+	transform: scale(1.1);
+filter: grayscale(0%);
+}
+.homepage button{
+	background-color: rgba(63, 79, 96, 0.739);
+	color: rgba(250, 247, 247, 0.981);
+	border-radius: 10px;
+	border: none;
+}
+ 
+.h1{
+	font-size: 15px;
+
+	color: rgb(17, 16, 16);
+	border-radius:30px ;
+}
+.abaya1 p{
+	font-size: 200px;
+}
+.abayas img{
+	height: 250px;
+	width: 200px;
+	margin-top: 10px;
+	margin: 5px;
+	border-radius: 50px;
+
+}
+/*  */
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	}
+	.categories{
+		margin: 70px 0;
+	
+	
+	}
+	.col-3{
+		
+		padding: 10px;
+		 flex-basis: 30%; 
+		 min-width: 250px; 
+		 margin-bottom: 30px;
+	
+		 }
+		
+	
+	.col-3 :hover{
+		transform:translateY(-5px) ;
+		transition: All ease-in 1s;
+	
+		color: black;
+		
+	}
+	.col-3 button{
+		border: none;
+		font-family: Arial, Helvetica, sans-serif;
+		transition: all ease-in 0.5s;
+	
+	}
+	.col-3 button :hover{
+		
+	background-color: black;
+	}
+	.col-3 button{
+	color: black;
+	border-radius: 20px 20px;
+	background-color: rgb(250, 250, 250);
+	font-weight: 700;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.col-3 p{
+		
+		color: rgba(95, 91, 53, 0.786);
+		font-size: 13px;
+	}
+	.col-3 button{
+		color: rgb(127, 104, 104);
+	
+	}
+.col-3 img{
+		flex-basis: 30%; 
+		min-width: 250px; 
+		border-radius: 30px; 
+		height: 300px;
+	
+	}
+	.small-container{
+		max-width: 1080px;
+	}
+	.small-container{
+		max-width: 1080px;
+		margin: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.cont3{
+		background: url(hijab1.webp);
+		object-fit: cover;
+		object-position: 20px;
+		width: 900px;
+		margin: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	
+	}
+	.sale{
+		background-image: url(sale.webp);
+		height: 600px;
+		background-size: cover;
+
+	}
+	.footer{
+		margin-top: 10px;
+		background-color: rgba(79, 79, 114, 0.095);
+	}
+	.saleimg1{
+		height: 200px;
+		width: 200px;
+	}
+.head {
+	background-color: black;
+	color: rgb(233, 227, 222);
+}
+.head p{
+	margin-bottom: 0%;
+	margin-top: 0%;
+	font-family:inherit
+}
+.mystic{
+	background-image: url(mystic.webp);
+	background-size: cover;
+	height: 550px;
+}
+.sell{
+	background-image: url(big.webp);
+	background-size: cover;
+	height: 400px;
+}
+.sale1{
+background-image: url(kid\ background.webp);
+background-size: cover;
+height: 500px;
+}
+
+
